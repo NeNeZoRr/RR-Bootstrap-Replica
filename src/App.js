@@ -1,5 +1,6 @@
 import './App.css';
-import { TopBar } from '../src/components/TopBar';
+import TopBar from './components/TopBar'
+
 
 function App() {
   return (
