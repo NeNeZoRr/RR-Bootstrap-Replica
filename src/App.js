@@ -1,12 +1,15 @@
 import './App.css';
-import TopBar from './components/TopBar'
-
+import TopBar from './components/TopBar';
+import Background from './components/Background';
+// import StoreListings from './components/StoreListings'; // Commenting out this line
+import backgroundImage from './Assets/background.jpg'; 
 
 function App() {
   return (
     <div className="App">
       <TopBar />
-      <h1>Hello World</h1>
+      <Background backgroundImage={backgroundImage} />
+      {/* <StoreListings /> */}
     </div>
   );
 }
