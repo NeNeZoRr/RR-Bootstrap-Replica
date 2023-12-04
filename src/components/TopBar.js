@@ -8,7 +8,7 @@ export default function TopBar() {
     return (
         <div>
             <Navbar bg="light" expand="lg">
-                <Navbar.Brand style={{ margin: "5px 0 0 20px" }} href="#home">
+                <Navbar.Brand style={{ margin: "0px 0 0 15px" }} href="#home">
                     <img src={instacartLogo} alt="Instacart Logo" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
